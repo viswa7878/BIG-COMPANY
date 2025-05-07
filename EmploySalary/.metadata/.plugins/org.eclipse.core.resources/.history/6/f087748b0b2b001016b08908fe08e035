@@ -1,0 +1,62 @@
+package com.manager;
+
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+import org.junit.jupiter.api.*;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class FindSalaryDiffFullTest {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private final PrintStream originalOut = System.out;
+
+//    @BeforeEach
+//    public void setUpStreams() {
+//        System.setOut(new PrintStream(outContent));
+//    }
+//
+//    @AfterEach
+//    public void restoreStreams() {
+//        System.setOut(originalOut);
+//    }
+
+    @Test
+    public void testSalaryAndDepthViolations() {
+        // Step 1: Construct employee hierarchy from provided CSV-like data
+        Employe joe = new Employe(123, "Joe", "Doe", 60000, 0);         // CEO
+        Employe martin = new Employe(124, "Martin", "Chekov", 45000, 123);
+        Employe bob = new Employe(125, "Bob", "Ronstad", 47000, 123);
+        Employe alice = new Employe(300, "Alice", "Hasacat", 50000, 124);
+        Employe brett = new Employe(305, "Brett", "Hardleaf", 34000, 300);
+
+        // Step 2: Add extra employee to exceed depth limit
+        Employe xtra = new Employe(400, "Xtra", "Deep", 32000, 305); // 5 levels deep from CEO
+
+        // Step 3: Create the employee list
+        List<Employe> employees = Arrays.asList(joe, martin, bob, alice, brett, xtra);
+
+        // Step 4: Run analysis
+        FindSalaryDiff.analyze(employees);
+
+        // Step 5: Get the captured output
+//        String output = outContent.toString();
+//
+//        // Step 6: Validate salary issues (Joe manages Bob & Martin - their average is low)
+//        assertTrue(output.contains("Manager 123 earns below threshold"), "Expected salary violation for Joe");
+//
+//        // Step 7: Validate reporting depth violation for Employee 400
+//        assertFalse(output.contains("Employee 400 exceeds reporting depth"), "Employee 400 should not violate depth (4 levels is OK)");
+//
+        // Print output for visibility (optional)
+        System.out.println("---- Captured Output ----");
+//        System.out.println(output);
+        System.out.println("-------------------------");
+    }
+}

@@ -1,0 +1,21 @@
+package com.manager;
+
+import java.util.List;
+
+import com.manager.DTO.Employee;
+import com.manager.ReadCSV.CsvReader;
+
+/**
+ *  Program to find the Employ 
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        List<Employee> employees = CsvReader.readEmployees("employees.csv");
+//        OrgAnalyzer analyzer = new OrgAnalyzer(employees);
+//        analyzer.analyze();
+    }
+}

@@ -1,0 +1,72 @@
+package com.company.util;
+
+import com.manager.DTO.Employee;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class CsvReader {
+
+    // Method to read employees from a CSV file
+    public static List<Employee> readEmployees(String filePath) throws IOException {
+        List<Employee> employees = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader(filePath));
+        String line;
+        
+        // Skip the header line
+        br.readLine();
+
+        // Read each line of the CSV
+        while ((line = br.readLine()) != null) {
+            line = line.trim();
+
+            if (line.isEmpty()) {
+                continue; // Skip empty lines
+            }
+
+            // Split by comma
+            String[] parts = line.split(",");
+
+            // Clean and trim each part
+            for (int i = 0; i < parts.length; i++) {
+                parts[i] = parts[i].trim().replace("\"", ""); // Remove quotes and whitespace
+            }
+
+            try {
+                // Parse the employee data from the line
+                int id = Integer.parseInt(parts[0]);
+                String firstName = parts[1];
+                String lastName = parts[2];
+                double salary = Double.parseDouble(parts[3]);
+                Integer managerId = parts.length > 4 && !parts[4].isEmpty() ? Integer.parseInt(parts[4]) : null;
+
+                // Create the employee object
+                Employee employee = new Employee(id, firstName, lastName, salary, managerId);
+                employees.add(employee);
+            } catch (NumberFormatException e) {
+                // Handle the case where parsing an ID or salary fails
+                System.err.println("Error parsing line: " + line + ". Skipping this entry.");
+            }
+        }
+
+        // Create a map for easy look-up of employees by ID
+        Map<Integer, Employee> employeeMap = employees.stream()
+                .collect(Collectors.toMap(Employee::getEmpId, e -> e));
+
+        // Assign subordinates to their managers
+        for (Employee emp : employees) {
+            if (emp.getManagerId() != 0) {
+                Employee manager = employeeMap.get(emp.getManagerId());
+                if (manager != null) {
+                    manager.setSubordinates(emp); // Method to add subordinates to manager
+                }
+            }
+        }
+
+        br.close();
+        return employees;
+    }
+}

@@ -1,0 +1,59 @@
+package com.manager;
+
+
+import com.company.util.CsvReader;
+import com.manager.DTO.Employee;
+import org.junit.jupiter.api.Test;
+
+import java.io.*;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class CsvReaderTest {
+
+    @Test
+    public void testReadEmployees_validCsv_shouldParseAndLinkHierarchy() throws IOException {
+        // Create a temporary CSV file
+//    	File dir = new File("C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv");
+//    	try (BufferedWriter writer = new BufferedWriter(new FileWriter(dir))) {
+//            writer.write("1,Alice,Smith,100000,\n");  // CEO
+//            writer.write("2,Bob,Jones,60000,1\n");    // Reports to Alice
+//            writer.write("3,Charlie,Brown,50000,2\n"); // Reports to Bob
+//        }
+
+        // Read using your CsvReader class
+        List<Employee> employees = CsvReader.readEmployees("C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv");
+
+        // Basic validation
+        assertEquals(5, employees.size());
+
+        Employee alice = findById(employees, 300);
+        Employee bob = findById(employees, 2);
+        Employee charlie = findById(employees, 3);
+
+        assertNotNull(alice);
+//        assertEquals("Smith", alice.getLastName());
+    }
+
+    @Test
+    public void testReadEmployees_handlesInvalidLinesGracefully() throws IOException {
+    	File dir = new File("C:\\Users\\kvp925993\\Downloads\\");
+    	File tempFile = File.createTempFile("employees", ".csv", dir);
+    	try (BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile))) {
+            writer.write("1,Alice,Smith,abc,\n");  // Invalid salary
+            writer.write("2,Bob,Jones,60000,1\n"); // Valid
+        }
+
+        List<Employee> employees = CsvReader.readEmployees(tempFile.getAbsolutePath());
+        assertEquals(1, employees.size());
+        assertEquals(2, employees.get(0).getEmpId());
+    }
+
+    private Employee findById(List<Employee> employees, int id) {
+        return employees.stream()
+                .filter(e -> e.getEmpId() == id)
+                .findFirst()
+                .orElse(null);
+    }
+}

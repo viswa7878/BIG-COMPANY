@@ -1,0 +1,10 @@
+package com.manager.DTO;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee {
+
+  
+}
+

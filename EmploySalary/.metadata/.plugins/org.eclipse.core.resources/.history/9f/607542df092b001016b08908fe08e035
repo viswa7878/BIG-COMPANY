@@ -1,0 +1,86 @@
+package com.manager;
+
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+import org.junit.jupiter.api.*;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class FindSalaryDiffCsvDataTest {
+
+//    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+//    private final PrintStream originalOut = System.out;
+//
+//    @BeforeEach
+//    public void setUpStreams() {
+//        System.setOut(new PrintStream(outContent));
+//    }
+//
+//    @AfterEach
+//    public void restoreStreams() {
+//        System.setOut(originalOut);
+//    }
+
+    @Test
+    public void testAnalysisWithSampleCsvData() {
+        // Build the employee objects based on CSV structure
+        Employe joe = new Employe(123, "Joe", "Doe", 60000, 0);         // CEO
+        Employe martin = new Employe(124, "Martin", "Chekov", 45000, 123);
+        Employe bob = new Employe(125, "Bob", "Ronstad", 47000, 123);
+        Employe alice = new Employe(300, "Alice", "Hasacat", 50000, 124);
+        Employe brett = new Employe(305, "Brett", "Hardleaf", 34000, 300);
+
+        // Build initial hierarchy
+        joe.setSubordinates(martin);
+        joe.setSubordinates(bob);
+        martin.setSubordinates(alice);
+        alice.setSubordinates(brett);
+
+        List<Employe> employees = Arrays.asList(joe, martin, bob, alice, brett);
+
+        // Run the analyzer
+        FindSalaryDiff.analyze(employees);
+
+//        String output = outContent.toString();
+
+        // Assert no salary violation for Joe
+        assertFalse(output.contains("Manager 123"), "Joe should not trigger a salary violation");
+
+        // Assert no depth violation for Brett
+        assertFalse(output.contains("Employee 305 exceeds reporting depth"), "Brett should be within allowed reporting depth");
+
+        // Add another level below Brett (now 5 levels deep from Joe)
+        Employe extra = new Employe(400, "Xtra", "Deep", 32000, 305);
+        brett.setSubordinates(extra);
+
+        // Rebuild full hierarchy
+        joe.setSubordinates(martin);
+        joe.setSubordinates(bob);
+        martin.setSubordinates(alice);
+        alice.setSubordinates(brett);
+        brett.setSubordinates(extra);
+
+        // Update list
+        employees = Arrays.asList(joe, martin, bob, alice, brett, extra);
+
+        // Clear output and re-run
+        outContent.reset();
+        FindSalaryDiff.analyze(employees);
+
+        output = outContent.toString();
+
+        // Debug print
+        System.out.println("---- Captured Output ----");
+        System.out.println(output);
+        System.out.println("-------------------------");
+
+        // Assert that the depth violation is correctly printed
+        assertTrue(output.contains("Employee 400 exceeds reporting depth: 5 levels"),
+                "Depth violation expected for Employee 400");
+    }
+}

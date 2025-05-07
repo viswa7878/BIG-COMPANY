@@ -1,0 +1,38 @@
+package com.manager.ReadCSV;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+
+import com.manager.DTO.Employee;
+
+public class CsvReader {
+
+	public static List<Employee> readEmployees(String string) throws IOException {
+	
+		  List<Employee> employees = new ArrayList<>();
+	        BufferedReader br = new BufferedReader(new FileReader(string));
+	        String line = br.readLine(); // skip header
+
+	        while ((line = br.readLine()) != null) {
+	            String[] parts = line.split(",");
+	            System.out.println("parts"+Arrays.toString(parts));
+
+	            int id = Integer.parseInt(parts[0].trim());
+	            System.out.println("id"+id);
+	            String firstName = parts[1];
+	            String lastName = parts[2];
+	            double salary = Double.parseDouble(parts[3]);
+	            Integer managerId = parts.length > 4 && !parts[4].isEmpty() ? Integer.parseInt(parts[4]) : null;
+
+	            employees.add(new Employee(id, firstName, lastName, salary, managerId));
+	        }
+
+	        return employees;
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.manager;
+
+import java.io.IOException;
+import java.util.List;
+
+import com.company.util.CsvReader;
+import com.manager.DTO.Employee;
+import com.manager.logic.FindSalaryDiff;
+
+/**
+ *  Program to find the Employ 
+ *
+ */
+public class EmployMain 
+{
+    public static void main( String[] args ) throws IOException
+    {
+    	
+        List<Employee> employees = CsvReader.readEmployees("C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv");
+        System.out.println("sd"+employees);
+        FindSalaryDiff.analyze(employees);
+
+    }
+}

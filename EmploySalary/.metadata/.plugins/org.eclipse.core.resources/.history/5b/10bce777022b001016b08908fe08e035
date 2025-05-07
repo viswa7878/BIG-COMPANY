@@ -1,0 +1,42 @@
+package com.manager;
+
+
+import com.company.util.CsvReader;
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+
+import org.junit.jupiter.api.Test;
+
+import java.io.*;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class MainTest {
+
+    @Test
+    public void testReadEmployees_validCsv_shouldParseAndLinkHierarchy() throws IOException {
+        // Create a temporary CSV file
+//    	File dir = new File("C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv");
+//    	try (BufferedWriter writer = new BufferedWriter(new FileWriter(dir))) {
+//            writer.write("1,Alice,Smith,100000,\n");  // CEO
+//            writer.write("2,Bob,Jones,60000,1\n");    // Reports to Alice
+//            writer.write("3,Charlie,Brown,50000,2\n"); // Reports to Bob
+//        }
+
+        // Read using your CsvReader class
+     // Read the file from the system, either by specifying the path in a properties file or by passing it directly
+    	 @Test
+    	    public void testMainMethodRunsSuccessfully() {
+    	        // Arrange: Create dummy args (empty for now)
+    	        String[] args = {};
+
+    	        // Act & Assert: Ensure no exception is thrown during main() execution
+    	        assertDoesNotThrow(() -> {
+    	            EmployMain.main(args);
+    	        });
+    	    }
+    }
+
+ 
+}

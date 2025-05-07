@@ -1,0 +1,1059 @@
+2025-05-06 09:22:25,633 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-05-06 09:23:01,899 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2025-05-06 09:23:01,913 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2025-05-06 09:23:01,967 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/4/maven-archetype-bundles-4.pom
+2025-05-06 09:23:01,975 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/4/maven-archetype-bundles-4.pom
+2025-05-06 09:23:02,001 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/2.0-alpha-5/maven-archetype-2.0-alpha-5.pom
+2025-05-06 09:23:02,011 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/2.0-alpha-5/maven-archetype-2.0-alpha-5.pom
+2025-05-06 09:23:02,070 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2025-05-06 09:23:02,077 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2025-05-06 09:24:03,117 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [675])
+2025-05-06 09:24:03,118 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-05-06 09:24:03,118 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-05-06 09:24:03,119 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-05-06 09:24:03,119 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-05-06 09:24:03,119 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-05-06 09:24:03,119 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-05-06 09:24:03,119 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-05-06 09:24:03,119 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-05-06 09:24:03,120 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-05-06 09:24:03,121 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-05-06 09:24:03,121 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-05-06 09:24:03,121 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-05-06 09:24:03,121 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-05-06 09:24:03,121 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-05-06 09:24:03,121 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-05-06 09:24:03,122 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-05-06 09:24:03,122 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-05-06 09:24:03,122 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-05-06 09:24:03,122 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-05-06 09:24:03,123 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-05-06 09:24:03,123 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-05-06 09:24:03,123 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-05-06 09:24:03,124 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-05-06 09:24:03,124 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-05-06 09:24:03,124 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-05-06 09:24:03,124 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-05-06 09:24:03,124 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-05-06 09:24:03,125 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-05-06 09:24:03,125 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-05-06 09:24:03,125 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-05-06 09:24:03,125 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-05-06 09:24:03,125 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-05-06 09:24:03,125 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-05-06 09:24:03,126 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-05-06 09:24:03,126 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-05-06 09:24:03,126 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-05-06 09:24:03,126 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-05-06 09:24:03,127 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-05-06 09:24:03,128 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.1.jre [29])
+2025-05-06 09:24:03,129 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\com.google.guava_33.3.1.jre.jar
+2025-05-06 09:24:03,129 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1301])
+2025-05-06 09:24:03,130 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-05-06 09:24:03,130 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20091030 [64])
+2025-05-06 09:24:03,130 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\javax.inject_1.0.0.v20091030.jar
+2025-05-06 09:24:03,131 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [63])
+2025-05-06 09:24:03,131 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2025-05-06 09:24:03,131 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [98])
+2025-05-06 09:24:03,132 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-05-06 09:24:03,132 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [101])
+2025-05-06 09:24:03,133 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-05-06 09:24:03,133 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [31])
+2025-05-06 09:24:03,133 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\kvp925993\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-05-06 09:24:03,137 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\KVP925~1\AppData\Local\Temp\m2e-archetypeGenerator12588305177542334137":
+2025-05-06 09:24:03,141 [Worker-21: Launching mavenrun-df1ca020-e9e5-400b-b925-b1b329af157b] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=ManagerSalary -DartifactId=manager -Dversion=0.0.1-SNAPSHOT -Dpackage=com.manager -DoutputDirectory=D:\workspac\Employ -Dstyle.color=always -U archetype:generate
+2025-05-06 09:24:16,625 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\workspac\Employ\manager\pom.xml
+2025-05-06 09:24:17,740 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-06 09:24:17,772 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+2025-05-06 09:24:17,778 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+2025-05-06 09:24:17,792 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+2025-05-06 09:24:17,831 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+2025-05-06 09:24:18,337 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /manager/src/main/java
+2025-05-06 09:24:18,339 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /manager/src/main/resources
+2025-05-06 09:24:18,342 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /manager/src/test/java
+2025-05-06 09:24:18,343 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /manager/src/test/resources
+2025-05-06 09:24:18,655 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-05-06 09:24:19,200 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2025-05-06 09:24:19,235 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2025-05-06 09:24:19,241 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2025-05-06 09:24:19,278 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 09:24:19,282 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 09:24:40,375 [Worker-46: Building Project manager] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 09:24:40,377 [Worker-46: Building Project manager] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 13:10:34,087 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 13:10:34,088 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 13:10:53,322 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 13:10:53,323 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:48:20,722 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:48:20,725 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:49:28,349 [Worker-112: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-06 14:49:28,424 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.pom
+2025-05-06 14:49:28,465 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.pom
+2025-05-06 14:49:28,494 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.pom
+2025-05-06 14:49:28,518 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.pom
+2025-05-06 14:49:28,555 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.pom
+2025-05-06 14:49:28,574 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.pom
+2025-05-06 14:49:28,613 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom
+2025-05-06 14:49:28,632 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom
+2025-05-06 14:49:28,659 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+2025-05-06 14:49:28,691 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+2025-05-06 14:49:28,729 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2025-05-06 14:49:28,747 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2025-05-06 14:49:28,773 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2025-05-06 14:49:28,796 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2025-05-06 14:49:28,904 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.jar
+2025-05-06 14:49:28,955 [Worker-112: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.jar
+2025-05-06 14:49:28,973 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar
+2025-05-06 14:49:29,012 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0.jar
+2025-05-06 14:49:29,032 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar
+2025-05-06 14:49:29,048 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2025-05-06 14:49:29,048 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar
+2025-05-06 14:49:29,107 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2025-05-06 14:49:29,148 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar
+2025-05-06 14:49:29,160 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar
+2025-05-06 14:49:29,642 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:49:29,652 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:49:30,384 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9-sources.jar
+2025-05-06 14:49:30,482 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9-sources.jar
+2025-05-06 14:49:30,513 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.opencsv:opencsv:5.9
+2025-05-06 14:49:30,691 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0-sources.jar
+2025-05-06 14:49:30,809 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:49:30,814 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:49:30,819 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0-sources.jar
+2025-05-06 14:49:30,840 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.13.0
+2025-05-06 14:49:30,912 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0-sources.jar
+2025-05-06 14:49:31,003 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.11.0/commons-text-1.11.0-sources.jar
+2025-05-06 14:49:31,019 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-text:1.11.0
+2025-05-06 14:49:31,068 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4-sources.jar
+2025-05-06 14:49:31,150 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4-sources.jar
+2025-05-06 14:49:31,167 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-beanutils:commons-beanutils:1.9.4
+2025-05-06 14:49:31,210 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2025-05-06 14:49:31,274 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2025-05-06 14:49:31,288 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2025-05-06 14:49:31,337 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+2025-05-06 14:49:31,456 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar
+2025-05-06 14:49:31,465 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-collections:commons-collections:3.2.2
+2025-05-06 14:49:31,530 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-sources.jar
+2025-05-06 14:49:31,640 [Worker-114: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-sources.jar
+2025-05-06 14:49:31,653 [Worker-114: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-collections4:4.4
+2025-05-06 14:49:53,197 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:49:53,201 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:54:04,149 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:54:04,155 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:54:26,175 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:54:26,179 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:54:36,627 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:54:36,630 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:54:50,059 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:54:50,061 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:55:11,683 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:55:11,686 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:55:42,904 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:55:42,907 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:57:54,078 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:57:54,081 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:58:21,807 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:58:21,810 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:58:27,411 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:58:27,415 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:58:55,011 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:58:55,015 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:59:51,322 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:59:51,325 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 14:59:55,268 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 14:59:55,270 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:00:14,665 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:00:14,667 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:03:39,417 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:03:39,420 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:11:32,197 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:11:32,200 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:12:27,254 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:12:27,257 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:13:11,559 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:13:11,562 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:13:25,611 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:13:25,613 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:13:30,516 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:13:30,519 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 15:15:05,601 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 15:15:05,603 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:20:14,268 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:20:14,271 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:20:55,217 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:20:55,221 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:21:04,671 [Worker-154: Launching Main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:21:04,673 [Worker-154: Launching Main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:21:11,077 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:21:11,080 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:21:14,546 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:21:14,548 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:21:28,642 [Worker-155: Launching Main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:21:28,647 [Worker-155: Launching Main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:21:58,765 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:21:58,773 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:44:24,974 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:44:24,977 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:46:22,987 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:46:22,991 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:52:56,153 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:52:56,156 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:56:51,734 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:56:51,737 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:58:26,697 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:58:26,700 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 17:59:16,041 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 17:59:16,044 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:01:45,250 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:01:45,253 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:09:30,269 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:09:30,285 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:09:40,293 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:09:40,295 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:09:50,149 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:09:50,151 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:10:01,026 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:10:01,030 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:10:54,793 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:10:54,796 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 18:11:18,458 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 18:11:18,462 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:02:11,858 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:02:11,859 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:10:29,092 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:10:29,093 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:11:28,715 [Worker-195: Launching EmployMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:11:28,716 [Worker-195: Launching EmployMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:12:14,524 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:12:14,525 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:15:09,457 [Worker-195: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:15:09,458 [Worker-195: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:15:38,254 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:15:38,256 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:18:50,979 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:18:50,980 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:19:53,996 [Worker-204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:19:53,997 [Worker-204: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:20:21,646 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:20:21,648 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 19:28:06,616 [Worker-206: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 19:28:06,618 [Worker-206: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 22:14:36,945 [Worker-232: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 22:14:36,946 [Worker-232: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 22:58:38,853 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 22:58:38,854 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 22:59:08,139 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 22:59:08,140 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 22:59:23,284 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 22:59:23,286 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 22:59:37,413 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 22:59:37,414 [Worker-246: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:00:29,600 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:00:29,601 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:01:17,147 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:01:17,148 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:03:26,283 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:03:26,285 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:05:42,642 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:05:42,644 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:05:51,710 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:05:51,711 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:06:03,346 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:06:03,348 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:10:45,232 [Worker-252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:10:45,233 [Worker-252: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:10:50,477 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:10:50,478 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:11:09,283 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:11:09,285 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:13:11,497 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:13:11,498 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:13:14,671 [Worker-250: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:13:14,673 [Worker-250: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:13:21,262 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:13:21,264 [Worker-249: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:21:31,861 [Worker-254: Launching EmployMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:21:31,862 [Worker-254: Launching EmployMain] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-06 23:22:02,109 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-06 23:22:02,111 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:20:44,066 [Worker-265: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-07 00:20:44,576 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.pom
+2025-05-07 00:20:44,593 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.pom
+2025-05-07 00:20:44,633 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.2/junit-bom-5.9.2.pom
+2025-05-07 00:20:44,652 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.2/junit-bom-5.9.2.pom
+2025-05-07 00:20:44,682 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.pom
+2025-05-07 00:20:44,696 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.pom
+2025-05-07 00:20:44,731 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom
+2025-05-07 00:20:44,746 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom
+2025-05-07 00:20:44,782 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.pom
+2025-05-07 00:20:44,807 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.pom
+2025-05-07 00:20:44,844 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.pom
+2025-05-07 00:20:44,868 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.pom
+2025-05-07 00:20:44,906 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom
+2025-05-07 00:20:44,928 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom
+2025-05-07 00:20:45,012 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar
+2025-05-07 00:20:45,033 [Worker-265: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar
+2025-05-07 00:20:45,054 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar
+2025-05-07 00:20:45,372 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar
+2025-05-07 00:20:45,372 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar
+2025-05-07 00:20:45,373 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar
+2025-05-07 00:20:45,412 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar
+2025-05-07 00:20:45,414 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar
+2025-05-07 00:20:45,547 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar
+2025-05-07 00:20:45,547 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar
+2025-05-07 00:20:45,550 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar
+2025-05-07 00:20:45,551 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar
+2025-05-07 00:20:46,085 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:20:46,093 [Worker-265: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:20:46,779 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2-sources.jar
+2025-05-07 00:20:46,814 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2-sources.jar
+2025-05-07 00:20:46,828 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter:5.9.2
+2025-05-07 00:20:46,877 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2-sources.jar
+2025-05-07 00:20:47,195 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2-sources.jar
+2025-05-07 00:20:47,262 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.9.2
+2025-05-07 00:20:47,363 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2-sources.jar
+2025-05-07 00:20:47,395 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:20:47,397 [Worker-269: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:20:47,425 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2-sources.jar
+2025-05-07 00:20:47,439 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.9.2
+2025-05-07 00:20:47,484 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2-sources.jar
+2025-05-07 00:20:47,548 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2-sources.jar
+2025-05-07 00:20:47,564 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.9.2
+2025-05-07 00:20:47,628 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2-sources.jar
+2025-05-07 00:20:47,801 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2-sources.jar
+2025-05-07 00:20:47,818 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.9.2
+2025-05-07 00:20:47,875 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2-sources.jar
+2025-05-07 00:20:47,972 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2-sources.jar
+2025-05-07 00:20:47,986 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.9.2
+2025-05-07 00:21:26,050 [Worker-271: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:21:26,052 [Worker-271: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:21:43,109 [Worker-268: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-07 00:22:03,264 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:22:03,265 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:22:19,514 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:22:19,516 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:22:22,489 [Worker-272: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:22:22,491 [Worker-272: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:22:54,963 [Worker-271: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-07 00:23:12,437 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:23:12,439 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:24:35,824 [Worker-270: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-07 00:24:53,664 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:24:53,665 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:25:03,609 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:25:03,612 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:25:31,200 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:25:31,201 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:25:36,233 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:25:36,234 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:25:51,710 [Worker-277: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:25:51,712 [Worker-277: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:25:57,144 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:25:57,146 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:26:50,534 [Worker-270: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-07 00:26:50,944 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:26:50,948 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:26:51,839 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:26:51,841 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:27:25,508 [Worker-278: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-07 00:27:25,821 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:27:25,825 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:27:36,041 [Worker-270: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-07 00:27:36,361 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:27:36,363 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:27:43,951 [Worker-278: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\manager\pom.xml.
+2025-05-07 00:27:44,266 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:27:44,269 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:28:18,689 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:28:18,692 [Worker-266: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:28:26,034 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating FindSalaryDiffTest from maven configuration
+2025-05-07 00:28:27,387 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.pom
+2025-05-07 00:28:27,481 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.pom
+2025-05-07 00:28:27,513 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.pom
+2025-05-07 00:28:27,529 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.pom
+2025-05-07 00:28:27,596 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.pom
+2025-05-07 00:28:27,612 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.pom
+2025-05-07 00:28:27,675 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.pom
+2025-05-07 00:28:27,694 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.pom
+2025-05-07 00:28:27,723 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.pom
+2025-05-07 00:28:27,738 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.pom
+2025-05-07 00:28:27,797 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.pom
+2025-05-07 00:28:27,815 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.pom
+2025-05-07 00:28:27,865 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.pom
+2025-05-07 00:28:27,879 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.pom
+2025-05-07 00:28:27,922 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.pom
+2025-05-07 00:28:27,940 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.pom
+2025-05-07 00:28:28,002 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
+2025-05-07 00:28:28,017 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom
+2025-05-07 00:28:28,070 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.pom
+2025-05-07 00:28:28,085 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.pom
+2025-05-07 00:28:28,116 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.2.5/maven-3.2.5.pom
+2025-05-07 00:28:28,146 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.2.5/maven-3.2.5.pom
+2025-05-07 00:28:28,209 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom
+2025-05-07 00:28:28,244 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/25/maven-parent-25.pom
+2025-05-07 00:28:28,288 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom
+2025-05-07 00:28:28,305 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom
+2025-05-07 00:28:28,338 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.pom
+2025-05-07 00:28:28,356 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.pom
+2025-05-07 00:28:28,405 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.pom
+2025-05-07 00:28:28,420 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.pom
+2025-05-07 00:28:28,451 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom
+2025-05-07 00:28:28,466 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom
+2025-05-07 00:28:28,499 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+2025-05-07 00:28:28,515 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+2025-05-07 00:28:28,537 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2025-05-07 00:28:28,551 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2025-05-07 00:28:28,572 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+2025-05-07 00:28:28,592 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+2025-05-07 00:28:28,620 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2025-05-07 00:28:28,636 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2025-05-07 00:28:28,669 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2025-05-07 00:28:28,684 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2025-05-07 00:28:28,709 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2025-05-07 00:28:28,728 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2025-05-07 00:28:28,753 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+2025-05-07 00:28:28,775 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+2025-05-07 00:28:28,820 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom
+2025-05-07 00:28:28,835 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom
+2025-05-07 00:28:28,863 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.pom
+2025-05-07 00:28:28,877 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.pom
+2025-05-07 00:28:28,908 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M2/org.eclipse.sisu.plexus-0.9.0.M2.pom
+2025-05-07 00:28:28,926 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M2/org.eclipse.sisu.plexus-0.9.0.M2.pom
+2025-05-07 00:28:28,955 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.9.0.M2/sisu-plexus-0.9.0.M2.pom
+2025-05-07 00:28:28,971 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.9.0.M2/sisu-plexus-0.9.0.M2.pom
+2025-05-07 00:28:29,004 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+2025-05-07 00:28:29,021 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+2025-05-07 00:28:29,043 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2025-05-07 00:28:29,056 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2025-05-07 00:28:29,086 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom
+2025-05-07 00:28:29,099 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom
+2025-05-07 00:28:29,133 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/26/weld-parent-26.pom
+2025-05-07 00:28:29,152 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/26/weld-parent-26.pom
+2025-05-07 00:28:29,183 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.pom
+2025-05-07 00:28:29,201 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.pom
+2025-05-07 00:28:29,224 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.9.0.M2/sisu-inject-0.9.0.M2.pom
+2025-05-07 00:28:29,240 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.9.0.M2/sisu-inject-0.9.0.M2.pom
+2025-05-07 00:28:29,265 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom
+2025-05-07 00:28:29,284 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom
+2025-05-07 00:28:29,312 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.0/plexus-containers-2.1.0.pom
+2025-05-07 00:28:29,328 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.1.0/plexus-containers-2.1.0.pom
+2025-05-07 00:28:29,357 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom
+2025-05-07 00:28:29,374 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom
+2025-05-07 00:28:29,401 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom
+2025-05-07 00:28:29,414 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom
+2025-05-07 00:28:29,438 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom
+2025-05-07 00:28:29,452 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom
+2025-05-07 00:28:29,484 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom
+2025-05-07 00:28:29,498 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom
+2025-05-07 00:28:29,524 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom
+2025-05-07 00:28:29,537 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom
+2025-05-07 00:28:29,563 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom
+2025-05-07 00:28:29,576 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom
+2025-05-07 00:28:29,600 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom
+2025-05-07 00:28:29,615 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom
+2025-05-07 00:28:29,643 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/38/forge-parent-38.pom
+2025-05-07 00:28:29,662 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/38/forge-parent-38.pom
+2025-05-07 00:28:29,690 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2025-05-07 00:28:29,702 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2025-05-07 00:28:29,727 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2025-05-07 00:28:29,740 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2025-05-07 00:28:29,766 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2025-05-07 00:28:29,780 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2025-05-07 00:28:29,811 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+2025-05-07 00:28:29,825 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+2025-05-07 00:28:29,852 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom
+2025-05-07 00:28:29,872 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom
+2025-05-07 00:28:29,894 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom
+2025-05-07 00:28:29,928 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom
+2025-05-07 00:28:30,022 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.jar
+2025-05-07 00:28:31,000 [main] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.jar
+2025-05-07 00:28:31,025 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar
+2025-05-07 00:28:31,065 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar
+2025-05-07 00:28:31,066 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar
+2025-05-07 00:28:31,066 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar
+2025-05-07 00:28:31,066 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.jar
+2025-05-07 00:28:31,094 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar
+2025-05-07 00:28:31,102 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar
+2025-05-07 00:28:31,107 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar
+2025-05-07 00:28:31,110 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar
+2025-05-07 00:28:31,115 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.jar
+2025-05-07 00:28:31,118 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+2025-05-07 00:28:31,128 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar
+2025-05-07 00:28:31,138 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar
+2025-05-07 00:28:31,151 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar
+2025-05-07 00:28:31,754 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+2025-05-07 00:28:32,482 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar
+2025-05-07 00:28:32,831 [Worker-270: Launching FindSalaryDiffTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar
+2025-05-07 00:28:32,906 [Worker-270: Launching FindSalaryDiffTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar
+2025-05-07 00:28:59,459 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating FindSalaryDiffTest.testSalaryAndReportingViolations from maven configuration
+2025-05-07 00:34:04,281 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:34:04,283 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:35:44,380 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:35:44,382 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:36:00,563 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:36:00,566 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:38:15,180 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:38:15,182 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:38:21,693 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating CsvReaderTest from maven configuration
+2025-05-07 00:39:00,720 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:39:00,722 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:39:36,512 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:39:36,514 [Worker-273: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:40:50,096 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:40:50,098 [Worker-280: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:41:06,549 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:41:06,552 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:41:31,509 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:41:31,511 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:44:26,889 [Worker-282: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:44:26,891 [Worker-282: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:45:39,236 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:45:39,238 [Worker-276: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:45:45,401 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:45:45,403 [Worker-281: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:46:12,994 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:46:12,995 [Worker-283: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:48:31,739 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:48:31,741 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:49:50,706 [Worker-285: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:49:50,707 [Worker-285: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:50:29,422 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:50:29,424 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:50:42,190 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:50:42,192 [Worker-286: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:50:54,719 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:50:54,720 [Worker-270: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 00:51:18,372 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\main\resources
+2025-05-07 00:51:18,374 [Worker-284: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\manager\src\test\resources
+2025-05-07 08:57:44,769 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-05-07 08:57:58,481 [Worker-13: Deferred Early Start] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.eclipse.org:443
+2025-05-07 08:57:58,531 [Worker-17: https://download.jboss.org/jbosstools/examples/4/4/project-examples-category.xml] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.jboss.org:443
+2025-05-07 08:57:58,995 [Worker-8: https://download.jboss.org/jbosstools/static/redhat-central/jbosstools-central-webpage-2.0.0-20230531.1800.zip] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.jboss.org:443
+2025-05-07 09:14:22,053 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CsvReaderTest references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration CsvReaderTest references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,078 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CsvReaderTest references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration CsvReaderTest references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,087 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CsvReaderTest references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration CsvReaderTest references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,091 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration EmployMain references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration EmployMain references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,095 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration EmployMain references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration EmployMain references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,102 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration EmployMain references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration EmployMain references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,106 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration FindSalaryDiffTest references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration FindSalaryDiffTest references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,109 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration FindSalaryDiffTest references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration FindSalaryDiffTest references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,117 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration FindSalaryDiffTest references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration FindSalaryDiffTest references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,124 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration FindSalaryDiffTest.testSalaryAndReportingViolations references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration FindSalaryDiffTest.testSalaryAndReportingViolations references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,131 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration FindSalaryDiffTest.testSalaryAndReportingViolations references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration FindSalaryDiffTest.testSalaryAndReportingViolations references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,144 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration FindSalaryDiffTest.testSalaryAndReportingViolations references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration FindSalaryDiffTest.testSalaryAndReportingViolations references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,152 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Main references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration Main references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,158 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Main references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration Main references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:22,168 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Main references non-existing project manager.
+org.eclipse.core.runtime.CoreException: Launch configuration Main references non-existing project manager.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-07 09:14:27,205 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ManagerSalary:manager:0.0.1-SNAPSHOT @ D:\workspac\Employ\BIG COMPANY\pom.xml.
+2025-05-07 09:14:29,483 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:14:29,494 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:14:31,997 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:14:32,000 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:42:54,063 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:42:54,073 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:45:18,249 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:45:18,254 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:45:21,927 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:45:21,931 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:46:15,433 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:46:15,440 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:46:22,489 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:46:22,494 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:47:23,275 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:47:23,278 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:50:56,549 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:50:56,551 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:51:46,377 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:51:46,380 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:53:18,832 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:53:18,836 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:53:55,723 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:53:55,726 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 09:55:09,560 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 09:55:09,563 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:08:52,349 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:08:52,353 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:09:57,792 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:09:57,795 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:17:43,732 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:17:43,734 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:17:50,911 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating CsvReaderTest (1) from maven configuration
+2025-05-07 10:17:53,084 [Worker-71: Launching CsvReaderTest (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:17:53,091 [Worker-71: Launching CsvReaderTest (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:41:35,751 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:41:35,754 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:41:43,195 [Worker-82: Launching CsvReaderTest (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:41:43,197 [Worker-82: Launching CsvReaderTest (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:42:54,892 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:42:54,895 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:43:46,067 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:43:46,071 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:44:01,256 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating MainTest from maven configuration
+2025-05-07 10:44:02,299 [Worker-81: Launching MainTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:44:02,301 [Worker-81: Launching MainTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:44:20,712 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:44:20,715 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:46:34,377 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:46:34,379 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:46:45,305 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:46:45,306 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:46:51,317 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:46:51,318 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:55:30,194 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:55:30,197 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:56:47,326 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:56:47,329 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 10:57:57,421 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 10:57:57,425 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:01:28,592 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:01:28,595 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:03:46,040 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:03:46,042 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:03:55,143 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:03:55,146 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:15:16,537 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:15:16,540 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:24:42,346 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating BIG COMPANY from maven configuration
+2025-05-07 11:24:44,027 [Worker-100: Launching BIG COMPANY] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:24:44,028 [Worker-100: Launching BIG COMPANY] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:25:48,938 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating FindSalaryDiffTest (1) from maven configuration
+2025-05-07 11:27:57,682 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:27:57,683 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:28:34,099 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating FindSalaryDiffCsvDataTest from maven configuration
+2025-05-07 11:29:38,274 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:29:38,276 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:33:54,780 [Worker-111: Launching FindSalaryDiffCsvDataTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:33:54,781 [Worker-111: Launching FindSalaryDiffCsvDataTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:35:04,826 [Worker-104: Launching FindSalaryDiffCsvDataTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:35:04,827 [Worker-104: Launching FindSalaryDiffCsvDataTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:35:37,762 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:35:37,764 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:37:08,858 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:37:08,860 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:39:34,123 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:39:34,125 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:39:38,158 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:39:38,159 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:39:45,959 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:39:45,961 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:39:57,897 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:39:57,899 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:44:29,557 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:44:29,558 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:44:38,854 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating FindSalaryDepthOnlyTest from maven configuration
+2025-05-07 11:46:27,119 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:46:27,120 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:46:32,779 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating FindSalaryDiffFullTest from maven configuration
+2025-05-07 11:47:12,593 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:47:12,595 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:47:22,082 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:47:22,083 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:48:29,467 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:48:29,469 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:48:41,812 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:48:41,814 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:49:01,025 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:49:01,026 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:49:04,266 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:49:04,268 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:51:43,311 [Worker-124: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:51:43,312 [Worker-124: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:55:01,195 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:55:01,197 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:56:44,771 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:56:44,773 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 11:56:53,132 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 11:56:53,134 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:03:06,393 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:03:06,396 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:12:36,421 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:12:36,423 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:13:50,030 [Worker-137: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:13:50,031 [Worker-137: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:14:06,679 [Worker-146: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:14:06,680 [Worker-146: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:16:51,963 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:16:51,966 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:18:34,469 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:18:34,470 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:18:53,483 [Worker-144: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:18:53,484 [Worker-144: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:19:38,969 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:19:38,972 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:22:04,770 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:22:04,772 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:22:09,395 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:22:09,398 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:27:39,153 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:27:39,156 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:28:02,872 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:28:02,873 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:28:24,736 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:28:24,737 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:28:45,754 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:28:45,756 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:28:51,099 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:28:51,102 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:29:13,037 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:29:13,039 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:29:21,352 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:29:21,352 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:29:26,001 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:29:26,003 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:30:52,204 [Worker-150: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:30:52,205 [Worker-150: Launching FindSalaryDiffFullTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:32:21,984 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:32:21,986 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:32:29,698 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:32:29,699 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:32:37,186 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:32:37,187 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:32:38,664 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:32:38,667 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:33:18,405 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:33:18,407 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:33:41,161 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:33:41,165 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:33:59,606 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:33:59,607 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:34:20,718 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:34:20,720 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:35:42,755 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\main\resources
+2025-05-07 12:35:42,757 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspac\Employ\BIG COMPANY\src\test\resources
+2025-05-07 12:38:58,494 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -1,0 +1,24 @@
+package com.manager.controller;
+
+import java.io.IOException;
+import java.util.List;
+
+import com.company.util.CsvReader;
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+
+/**
+ *  Program to find the Managerial Salary Benchmarking and Reporting Line Evaluation 
+ *
+ */
+public class EmployMain 
+{
+    public static void main( String[] args ) throws IOException
+    {
+    	//Populating the Csv file into the Employee List
+        List<Employe> employees = CsvReader.readEmployees("C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv");
+        System.out.println("sd"+employees);
+        FindSalaryDiff.analyze(employees);
+
+    }
+}

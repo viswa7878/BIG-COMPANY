@@ -1,0 +1,128 @@
+package com.manager;
+
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+import org.junit.jupiter.api.*;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class FindSalaryDiffFullTest {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private final PrintStream originalOut = System.out;
+
+//    @BeforeEach
+//    public void setUpStreams() {
+//        // Redirecting output to capture printed messages
+//        System.setOut(new PrintStream(outContent));
+//    }
+//
+//    @AfterEach
+//    public void restoreStreams() {
+//        // Restoring original output
+//        System.setOut(originalOut);
+//    }
+
+    @Test
+    public void testSalaryViolation() {
+        // Construct employee hierarchy
+        Employe joe = new Employe(123, "Joe", "Doe", 60000, 0);         // CEO
+        Employe martin = new Employe(124, "Martin", "Chekov", 45000, 123);
+        Employe bob = new Employe(125, "Bob", "Ronstad", 47000, 123);
+        Employe alice = new Employe(300, "Alice", "Hasacat", 50000, 124);
+        Employe brett = new Employe(305, "Brett", "Hardleaf", 34000, 300);
+        Employe xtra = new Employe(400, "Xtra", "Deep", 32000, 305); // 5 levels from CEO
+
+        // Setting up subordinates
+        joe.setSubordinates(martin);
+        joe.setSubordinates(bob);
+        martin.setSubordinates(alice);
+        alice.setSubordinates(brett);
+        brett.setSubordinates(xtra);
+
+        List<Employe> employees = Arrays.asList(joe, martin, bob, alice, brett, xtra);
+
+        // Run salary violation check
+        FindSalaryDiff.analyze(employees);
+
+        // Validate that Joe's salary is below threshold (expected output)
+        assertTrue(outContent.toString().contains("Manager 124 earns below threshold"), "Expected salary violation for Martin");
+    }
+
+//    @Test
+//    public void testDepthViolation() {
+//        // Construct employee hierarchy
+//        Employe joe = new Employe(123, "Joe", "Doe", 60000, 0);         // CEO
+//        Employe martin = new Employe(124, "Martin", "Chekov", 45000, 123);
+//        Employe bob = new Employe(125, "Bob", "Ronstad", 47000, 123);
+//        Employe alice = new Employe(300, "Alice", "Hasacat", 50000, 124);
+//        Employe brett = new Employe(305, "Brett", "Hardleaf", 34000, 300);
+//        Employe xtra = new Employe(400, "Xtra", "Deep", 32000, 305); // 5 levels from CEO
+//        Employe ultra = new Employe(500, "Ultra", "Deepest", 31000, 400); // 6 levels from CEO
+//
+//        // Setting up subordinates
+//        joe.setSubordinates(martin);
+//        joe.setSubordinates(bob);
+//        martin.setSubordinates(alice);
+//        alice.setSubordinates(brett);
+//        brett.setSubordinates(xtra);
+//        xtra.setSubordinates(ultra); // This should trigger a depth violation for Ultra (500)
+//
+//        List<Employe> employees = Arrays.asList(joe, martin, bob, alice, brett, xtra, ultra);
+//
+//        // Run depth violation check
+//        FindSalaryDiff.analyze(employees);
+//
+//        // Validate that Ultra exceeds the depth limit (should print a violation message)
+//        assertTrue(outContent.toString().contains("Employee 500 exceeds reporting depth"), "Expected depth violation for Ultra");
+//    }
+//
+//    @Test
+//    public void testNoSalaryViolations() {
+//        // Construct employee hierarchy where no salary violations exist
+//        Employe joe = new Employe(123, "Joe", "Doe", 80000, 0); // CEO
+//        Employe martin = new Employe(124, "Martin", "Chekov", 60000, 123);
+//        Employe bob = new Employe(125, "Bob", "Ronstad", 60000, 123);
+//        Employe alice = new Employe(300, "Alice", "Hasacat", 65000, 124);
+//
+//        // Setting up subordinates
+//        joe.setSubordinates(martin);
+//        joe.setSubordinates(bob);
+//        martin.setSubordinates(alice);
+//
+//        List<Employe> employees = Arrays.asList(joe, martin, bob, alice);
+//
+//        // Run salary violation check
+//        FindSalaryDiff.analyze(employees);
+//
+//        // Validate that there are no salary violations (nothing should be printed)
+//        assertFalse(outContent.toString().contains("Manager 123 earns below threshold"), "There should be no salary violation for Joe");
+//    }
+//
+//    @Test
+//    public void testNoDepthViolations() {
+//        // Construct employee hierarchy where no depth violations exist
+//        Employe joe = new Employe(123, "Joe", "Doe", 80000, 0); // CEO
+//        Employe martin = new Employe(124, "Martin", "Chekov", 60000, 123);
+//        Employe bob = new Employe(125, "Bob", "Ronstad", 60000, 123);
+//        Employe alice = new Employe(300, "Alice", "Hasacat", 65000, 124);
+//
+//        // Setting up subordinates
+//        joe.setSubordinates(martin);
+//        joe.setSubordinates(bob);
+//        martin.setSubordinates(alice);
+//
+//        List<Employe> employees = Arrays.asList(joe, martin, bob, alice);
+//
+//        // Run depth violation check
+//        FindSalaryDiff.analyze(employees);
+//
+//        // Validate that there are no depth violations
+//        assertFalse(outContent.toString().contains("Employee exceeds reporting depth"), "There should be no depth violation");
+//    }
+}

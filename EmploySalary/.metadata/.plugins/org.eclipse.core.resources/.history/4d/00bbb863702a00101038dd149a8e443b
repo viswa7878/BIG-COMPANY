@@ -1,0 +1,14 @@
+package com.manager.logic;
+
+import java.util.List;
+
+import com.manager.DTO.Employee;
+
+public class FindSalaryDiff {
+
+	public FindSalaryDiff(List<Employee> employees) {
+
+	
+	}
+
+}

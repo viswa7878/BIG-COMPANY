@@ -1,0 +1,54 @@
+package com.manager;
+
+
+import com.company.util.CsvReader;
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+
+import org.junit.jupiter.api.Test;
+
+import java.io.*;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class MainTest {
+
+    @Test
+    public void testReadEmployees_validCsv_shouldParseAndLinkHierarchy() throws IOException {
+        // Create a temporary CSV file
+//    	File dir = new File("C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv");
+//    	try (BufferedWriter writer = new BufferedWriter(new FileWriter(dir))) {
+//            writer.write("1,Alice,Smith,100000,\n");  // CEO
+//            writer.write("2,Bob,Jones,60000,1\n");    // Reports to Alice
+//            writer.write("3,Charlie,Brown,50000,2\n"); // Reports to Bob
+//        }
+
+        // Read using your CsvReader class
+     // Read the file from the system, either by specifying the path in a properties file or by passing it directly
+    	String filePath="C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv";
+    	
+        // Read and populate the employee list from the specified CSV file path
+        List<Employe> employesList = CsvReader.readEmployees(filePath);
+        
+        // Print the list of employees to verify CSV read operation (for debugging)
+        System.out.println("Employees: " + employesList);
+
+        // Analyze employee list for salary benchmarking and reporting line depth
+        FindSalaryDiff.analyze(employesList);
+        // Basic validation
+        assertEquals(5, employees.size());
+
+////        Employe alice = findById(employees, 300);
+//        Employe bob = findById(employees, 125);
+//        Employe Brett = findById(employees, 305);
+//
+//        assertNotNull(alice);
+//        assertNotNull(bob);
+//        assertNotNull(Brett);
+//
+//        assertEquals("Hasacat", alice.getLastName());
+    }
+
+ 
+}

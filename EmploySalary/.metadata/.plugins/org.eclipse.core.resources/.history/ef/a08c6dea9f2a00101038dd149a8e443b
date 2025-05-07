@@ -1,0 +1,61 @@
+package com.company.util;
+
+import com.manager.DTO.Employee;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class CsvReader {
+
+    public static List<Employee> readEmployees(String filePath) throws IOException {
+        List<Employee> employees = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader(filePath));
+        String line;
+        
+        // Skip the header line
+        br.readLine();
+
+        while ((line = br.readLine()) != null) {
+            line = line.trim();
+
+            if (line.isEmpty()) {
+                continue;
+            }
+
+            // Split by comma
+            String[] parts = line.split(",");
+
+            // Clean and trim each part
+            for (int i = 0; i < parts.length; i++) {
+                parts[i] = parts[i].trim().replace("\"", "");
+            }
+
+            int id = Integer.parseInt(parts[0]);
+            String firstName = parts[1];
+            String lastName = parts[2];
+            double salary = Double.parseDouble(parts[3]);
+            Integer managerId = parts.length > 4 && !parts[4].isEmpty() ? Integer.parseInt(parts[4]) : null;
+
+            // Create the employee object
+            Employee employee = new Employee(id, firstName, lastName, salary, managerId);
+            employees.add(employee);
+        }
+
+        // Assign subordinates
+        Map<Integer, Employee> employeeMap = employees.stream().collect(Collectors.toMap(Employee::getEmpId, e -> e));
+
+        for (Employee emp : employees) {
+            if (emp.getManagerId()!= 0) {
+                Employee manager = employeeMap.get(emp.getManagerId());
+                if (manager != null) {
+                    manager.addSubordinate(emp);
+                }
+            }
+        }
+
+        return employees;
+    }
+}

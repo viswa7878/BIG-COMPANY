@@ -1,0 +1,35 @@
+package com.manager.controller;
+
+import java.io.IOException;
+import java.util.List;
+import com.company.util.CsvReader;
+import com.manager.DTO.Employe;
+import com.manager.logic.FindSalaryDiff;
+
+/**
+ * Main class for performing Managerial Salary Benchmarking and Reporting Line Evaluation.
+ * 
+ * This program reads employee data from a CSV file, and performs:
+ * 1. Validation that each manager earns at least 20% and no more than 50% more 
+ *    than the average salary of their direct subordinates.
+ * 2. Identification of employees who are more than 4 levels deep in the organizational hierarchy.
+ * 
+ * Author: Viswa Prakash
+ */
+public class EmployMain 
+{
+    public static void main(String[] args) throws IOException
+    {
+    	// Read the file from the system, either by specifying the path in a properties file or by passing it directly
+    	String filePath="C:\\Users\\kvp925993\\Documents\\j4u\\BMF_Output_Report.csv";
+    	
+        // Read and populate the employee list from the specified CSV file path
+        List<Employe> employesList = CsvReader.readEmployees(filePath);
+        
+        // Print the list of employees to verify CSV read operation (for debugging)
+        System.out.println("Employees: " + employesList);
+
+        // Analyze employee list for salary benchmarking and reporting line depth
+        FindSalaryDiff.analyze(employesList);
+    }
+}

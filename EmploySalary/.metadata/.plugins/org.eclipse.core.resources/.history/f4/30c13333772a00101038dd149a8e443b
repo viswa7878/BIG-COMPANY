@@ -1,0 +1,47 @@
+package com.company.util;
+
+import com.company.model.Employee;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+
+public class CsvReader {
+    public static List<Employee> readEmployees(String filePath) throws IOException {
+        List<Employee> employees = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader(filePath));
+        String line;
+
+        while ((line = br.readLine()) != null) {
+            line = line.trim();  // Trim any leading/trailing whitespace
+
+            if (line.isEmpty()) {
+                continue;
+            }
+
+            // Split the line by commas
+            String[] parts = line.split(",");
+
+            // Clean up each part (remove quotes)
+            for (int i = 0; i < parts.length; i++) {
+                parts[i] = parts[i].trim();  // Trim leading/trailing spaces
+                // Remove quotes if they exist
+                if (parts[i].startsWith("\"") && parts[i].endsWith("\"")) {
+                    parts[i] = parts[i].substring(1, parts[i].length() - 1);
+                }
+            }
+
+            // Now use the cleaned up parts
+            int id = Integer.parseInt(parts[0]);
+            String firstName = parts[1];
+            String lastName = parts[2];
+            double salary = Double.parseDouble(parts[3]);
+            Integer managerId = parts.length > 4 && !parts[4].isEmpty() ? Integer.parseInt(parts[4]) : null;
+
+            employees.add(new com.manager.DTO.Employee(id, firstName, lastName, salary, managerId));
+        }
+
+        return employees;
+    }
+}

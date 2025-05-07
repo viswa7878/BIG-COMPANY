@@ -1,0 +1,14 @@
+package com.manager.DTO;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee {
+
+    private  int empId;
+    private  String firstName;
+    private  String lastName;
+    private  double salary;
+    private  int  managerId;
+    private  List<Employee> subordinates = new ArrayList<>();
+}

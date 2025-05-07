@@ -1,0 +1,72 @@
+package com.manager.logic;
+
+import java.util.List;
+
+import com.manager.DTO.Employee;
+
+
+import com.manager.DTO.Employee;
+
+import java.util.*;
+
+public class FindSalaryDiff {
+
+    public static void analyze(List<Employee> employees) {
+        checkSalaryViolations(employees);
+        checkReportingLines(employees);
+    }
+
+    // 1. Check salary constraint: manager should earn 20%-50% more than avg of direct subordinates
+    private static void checkSalaryViolations(List<Employee> employees) {
+        System.out.println("---- Salary Violations ----");
+
+        for (Employee manager : employees) {
+            List<Employee> subordinates = manager.getSubordinates();
+            if (subordinates == null || subordinates.isEmpty()) continue;
+
+            double avgSubSalary = subordinates.stream()
+                    .mapToDouble(Employee::getSalary)
+                    .average()
+                    .orElse(0.0);
+
+            double minExpected = avgSubSalary * 1.2;
+            double maxExpected = avgSubSalary * 1.5;
+            double actual = manager.getSalary();
+
+            if (actual < minExpected) {
+                System.out.printf("Manager %d earns too little. Needs %.2f more to reach 20%% above average (%.2f).\n",
+                        manager.getEmpId(), minExpected - actual, minExpected);
+            } else if (actual > maxExpected) {
+                System.out.printf("Manager %d earns too much. Should reduce by %.2f to stay within 50%% limit (%.2f).\n",
+                        manager.getEmpId(), actual - maxExpected, maxExpected);
+            }
+        }
+    }
+
+    // 2. Check reporting line depth (more than 4 managers to CEO)
+    private static void checkReportingLines(List<Employee> employees) {
+        System.out.println("\n---- Reporting Line Violations ----");
+
+        // Build a map for quick lookup
+        Map<Integer, Employee> employeeMap = new HashMap<>();
+        for (Employee e : employees) {
+            employeeMap.put(e.getEmpId(), e);
+        }
+
+        for (Employee e : employees) {
+            int depth = 0;
+            Integer managerId = e.getManagerId();
+            while (managerId != null) {
+                depth++;
+                Employee manager = employeeMap.get(managerId);
+                if (manager == null) break;
+                managerId = manager.getManagerId();
+            }
+
+            if (depth > 4) {
+                System.out.printf("Employee %d has a reporting line too long: %d levels (max 4).\n", e.getEmpId(), depth);
+            }
+        }
+    }
+}
+
